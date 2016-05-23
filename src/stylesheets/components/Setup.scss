@@ -1,0 +1,38 @@
+.ms-Setup {
+    text-align: center;
+
+    li + li {
+        margin-top: 5px;
+    }
+
+    &__separator {
+        position: relative;
+        display: block;
+        width: 25%;
+        text-align: center;
+        margin: 30px auto;
+        font-style: italic;
+        color: #888;
+
+        span {
+            display: inline-block;
+            background-color: #eee;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+
+        &::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 50%;
+            border-bottom: 1px solid #ccc;
+            z-index: -1;
+        }
+    }
+
+    &__start-button {
+        margin-top: 30px;
+    }
+}

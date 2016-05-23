@@ -1,0 +1,10 @@
+.ms-Status {
+    display: flex;
+    justify-content: flex-end;
+    margin: -5px;
+
+    .ms-Timer,
+    .ms-RemainingFlags {
+        margin: 5px;
+    }
+}

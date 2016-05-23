@@ -1,0 +1,33 @@
+.ms-Bar {
+    display: flex;
+
+    &__part {
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+
+        &__controls,
+        &__status {
+            visibility: hidden;
+        }
+
+        &__controls {
+            margin-right: auto;
+            width: 50%;
+            text-align: left;
+        }
+
+        &__status {
+            margin-left: auto;
+            width: 50%;
+            text-align: right;
+        }
+    }
+
+    &--playing {
+        .ms-Bar__part__controls,
+        .ms-Bar__part__status {
+            visibility: visible;
+        }
+    }
+}

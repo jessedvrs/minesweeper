@@ -1,0 +1,26 @@
+.ms-Game {
+    .ms-Bar {
+        height: 40px;
+        margin-bottom: 20px;
+    }
+
+    .ms-Field {
+        display: none;
+        height: 500px;
+    }
+
+    .ms-Setup {
+        min-height: 100px;
+        margin-top: 40px;
+    }
+
+    &--playing {
+        .ms-Field {
+            display: block;
+        }
+
+        .ms-Setup {
+            display: none;
+        }
+    }
+}

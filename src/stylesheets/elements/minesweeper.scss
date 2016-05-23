@@ -1,0 +1,9 @@
+.ms-minesweeper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .ms-Game {
+        width: 500px;
+    }
+}

@@ -1,0 +1,16 @@
+@import '../../node_modules/reset.css/reset';
+
+@import './font-faces/Alegreya';
+
+@import './elements/body';
+@import './elements/minesweeper';
+
+@import './components/Game';
+@import './components/Bar';
+@import './components/Field';
+@import './components/Title';
+@import './components/Controls';
+@import './components/Button';
+@import './components/Status';
+@import './components/Setup';
+@import './components/Fieldset';

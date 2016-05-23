@@ -1,0 +1,13 @@
+files:
+  include: 'src/stylesheets/**/*.scss'
+
+rules:
+  indentation:
+    - 1
+    -
+      size: 4
+
+  property-sort-order:
+    - 1
+    -
+      order: 'concentric'

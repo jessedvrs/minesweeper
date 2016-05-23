@@ -1,0 +1,10 @@
+.ms-Controls {
+    display: flex;
+    justify-content: flex-start;
+    margin: -5px;
+
+    .ms-Pause,
+    .ms-Stop {
+        margin: 5px;
+    }
+}
